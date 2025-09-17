@@ -1,4 +1,4 @@
-# C-Programming Tutorial
+# 🧿C-Programming Tutorial
 
 A collection of **code-wise notes and practice programs** I created while learning the C language.  
 It’s organized for quick revision, with small, focused examples that build up from basics to real projects.
@@ -85,11 +85,11 @@ int main(void) {
 
 ```
 ---
-# compile
+## compile
 gcc hello.c -o hello
 
-# run on Linux / macOS
+## run on Linux / macOS
 ./hello
 
-# run on Windows (CMD or PowerShell)
+## run on Windows (CMD or PowerShell)
 hello.exe
