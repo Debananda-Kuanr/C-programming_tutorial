@@ -132,7 +132,7 @@ Follow these steps to explore and run the examples in this repository:
 ```bash
 git clone https://github.com/Debananda-Kuanr/C-programming_tutorial.git
 cd C-programming_tutorial
-
+```
 
 ---
 
