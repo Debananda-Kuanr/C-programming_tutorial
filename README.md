@@ -119,3 +119,153 @@ C-programming_tutorial/
 ├── 12-practice/              # Small algorithms & exercises
 ├── projects/                 # Mini CLI tools / longer examples
 └── README.md                 # Main documentation
+
+---
+## 🚀 How to Use
+
+Follow these steps to explore and run the examples in this repository:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Debananda-Kuanr/C-programming_tutorial.git
+cd C-programming_tutorial
+
+
+---
+
+## 📚 References
+
+Some resources I personally use while learning C:
+
+- [📖 C Reference (cppreference.com)](https://en.cppreference.com/w/c)  
+- [📚 C Standard Library Reference](https://en.cppreference.com/w/c/header)  
+- [📝 TutorialsPoint – C Programming](https://www.tutorialspoint.com/cprogramming/index.htm)  
+- [🧑‍💻 GeeksforGeeks – C Language](https://www.geeksforgeeks.org/c-programming-language/)  
+- [🎯 Programiz – Learn C](https://www.programiz.com/c-programming)  
+- [⚡ GCC Compiler Documentation](https://gcc.gnu.org/onlinedocs/)  
+- [🐞 GDB Debugger Manual](https://sourceware.org/gdb/current/onlinedocs/)  
+
+👉 Pro tip: Always compile with warnings enabled for safer code:  
+
+```bash
+gcc -std=c17 -Wall -Wextra -Wpedantic filename.c -o output
+
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and share the code for learning or personal projects.
+
+See the [LICENSE](./LICENSE) file for full details.
+
+👨‍💻 **Author:** Debananda Kunar  
+📧 **Contact:** debanandakuanr453@gmail.com
+
+---
+
+MIT License
+
+Copyright (c) 2025 Debananda Kunar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+---
+
+## 🖥️ Software & Tools Reference
+
+Here are some tools I personally use and recommend for C programming:
+
+- **[MinGW-w64](http://mingw-w64.org/)** → A popular GCC compiler for Windows.  
+- **[MSYS2](https://www.msys2.org/)** → Package manager + terminal for Windows, includes GCC and other dev tools.  
+- **[VS Code](https://code.visualstudio.com/)** → Lightweight and powerful code editor (cross-platform).  
+- **[C/C++ Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)** → Provides IntelliSense, debugging, and code navigation.  
+- **[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)** → Run code snippets quickly in VS Code.  
+- **[CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)** → Create beautiful code screenshots for sharing notes.  
+- **[TDM-GCC](https://jmeubank.github.io/tdm-gcc/)** → Another GCC compiler option for Windows.  
+- **[Clang](https://clang.llvm.org/)** → Modern alternative to GCC, often bundled with macOS.  
+
+---
+
+## ⚙️ Adding MinGW to PATH (Windows)
+
+After installing **MinGW-w64**, you need to add its `bin` folder to your system PATH so that `gcc` works in the terminal.
+
+1. Find where MinGW is installed, e.g.:
+
+2. Copy the full path of the `bin` folder.  
+
+3. Open **Environment Variables**:  
+- Press `Win + R`, type `sysdm.cpl`, and press Enter.  
+- Go to **Advanced** → **Environment Variables**.  
+
+4. Under **System Variables**, find **Path**, then click **Edit**.  
+
+5. Click **New**, paste the path to the `bin` folder (e.g. `C:\MinGW\bin`).  
+
+6. Click **OK** to save and restart your terminal (or PC if needed).  
+
+---
+
+### ✅ Verify Installation
+
+Open a new **Command Prompt / PowerShell** and run:
+
+```bash
+gcc --version
+
+
+gcc (MinGW.org GCC-6.3.0-1) 6.3.0
+
+---
+
+## 🙌 Final Words
+
+This repository is part of my personal journey to learn and master **C programming**.  
+I’ll keep updating it with new notes, examples, and small projects as I progress.  
+
+If you’re also learning C, I hope this repo helps you:  
+- Build a strong foundation  
+- Practice with real examples  
+- Learn step by step with clear structure  
+
+---
+
+## 💬 Feedback & Contribution
+
+- Found a mistake?  
+- Have a better code example?  
+- Want to suggest improvements?  
+
+👉 Contributions are always welcome!  
+Feel free to **fork this repo, open an issue, or submit a pull request**.  
+
+---
+
+## 👨‍💻 Author
+
+**Debananda Kunar**  
+📧 Email: [debanandakuanr453@gmail.com](mailto:debanandakuanr453@gmail.com)  
+
+---
+
+⭐ If you find this repository helpful, don’t forget to **star it on GitHub** — it motivates me to keep learning & sharing!
