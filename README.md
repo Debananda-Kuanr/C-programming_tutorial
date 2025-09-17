@@ -11,11 +11,11 @@ Hi, I’m **Debananda Kunar**.
 I started learning **C** and built this repository to document my progress and share structured notes that are easy to revisit.
 
 **Goals:**
-- Track my learning journey
-- Share concise notes with runnable examples
-- Make it beginner-friendly for quick revision
+- Track my learning journey  
+- Share concise notes with runnable examples  
+- Make it beginner-friendly for quick revision  
 
-If this helps you, feel free to use it, improve it, or contribute.
+If this helps you, feel free to use it, improve it, or contribute.  
 
 📧 Contact: **debanandakuanr453@gmail.com**
 
@@ -45,13 +45,13 @@ This repo covers the following C topics (more will be added as I learn):
 
 To run the examples:
 
-- A **C compiler** (GCC or Clang)
-- A **code editor** (VS Code recommended)
-- A **terminal** (Command Prompt/PowerShell, macOS Terminal, or any Linux shell)
+- A **C compiler** (GCC or Clang)  
+- A **code editor** (VS Code recommended)  
+- A **terminal** (Command Prompt/PowerShell, macOS Terminal, or any Linux shell)  
 
 **Optional (but helpful):**
-- `make` for building multi-file programs
-- `gdb` for debugging
+- `make` for building multi-file programs  
+- `gdb` for debugging  
 
 ---
 
@@ -63,17 +63,10 @@ To run the examples:
   - Install **MSYS2** → `pacman -S mingw-w64-ucrt-x86_64-gcc`  
   - Or install **TDM-GCC** / **WinLibs GCC**  
 - **macOS**:  
-  - Install Xcode Command Line Tools → `xcode-select --install` (includes `clang`)
+  - Install Xcode Command Line Tools → `xcode-select --install` (includes `clang`)  
 - **Linux**:  
   - Debian/Ubuntu → `sudo apt install build-essential`  
-  - Fedora → `sudo dnf groupinstall "Development Tools"`
-
-### 2) Compile & run
-
-```bash
-# single file
-gcc hello.c -o hello
-./hello   # Windows: .\hello.exe
+  - Fedora → `sudo dnf groupinstall "Development Tools"`  
 
 ---
 
@@ -90,35 +83,17 @@ int main(void) {
     return 0;  // Exit code 0 means success
 }
 
----
-
-##✅File Structure 
-
-C-programming_tutorial/
-├── 00-setup/# compiler setup notes, VS Code tasks, make intro
-├── 01-basics/                # syntax, variables, operators, I/O (printf/scanf)
-├── 02-control-flow/          # if/else, switch, loops
-├── 03-functions/             # declarations, definitions, prototypes, recursion
-├── 04-arrays-strings/        # 1D/2D arrays, string.h functions, pitfalls
-├── 05-pointers/              # & and *, pointer arithmetic, const-correctness
-├── 06-structs-unions-enums/  # user-defined types, typedef, design tips
-├── 07-memory/                # malloc/calloc/realloc/free, memory leaks
-├── 08-file-io/               # text/binary files, buffering, error handling
-├── 09-preprocessor/          # macros, guards, conditional compilation
-├── 10-modular/               # headers, multi-file builds, simple makefiles
-├── 11-debug-test/            # gdb basics, assert, unit-test style snippets
-├── 12-practice/              # small algorithms & exercises
-├── projects/                 # mini CLI tools / longer examples
-└── README.md
-
 
 ---
+##🪨Compile & Run
 
-##📜License & Author
+# compile
+gcc hello.c -o hello
 
-This project is licensed under the MIT License. 
-You are free to use, modify, and share the code for learning or personal projects.
+# run on Linux / macOS
+./hello
 
-🏡Author: Debananda Kunar
+# run on Windows (CMD or PowerShell)
+hello.exe
 
-🌐Contact: debanandakuanr453@gmail.com
+---
