@@ -152,7 +152,7 @@ Some resources I personally use while learning C:
 
 ```bash
 gcc -std=c17 -Wall -Wextra -Wpedantic filename.c -o output
-
+```
 
 ---
 
@@ -234,7 +234,7 @@ Open a new **Command Prompt / PowerShell** and run:
 
 ```bash
 gcc --version
-
+```
 
 gcc (MinGW.org GCC-6.3.0-1) 6.3.0
 
