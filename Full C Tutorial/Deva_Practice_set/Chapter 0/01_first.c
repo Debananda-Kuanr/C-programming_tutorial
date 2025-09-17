@@ -1,3 +1,5 @@
+//Author: Debananda Kuanr 
+
 #include<stdio.h>
 
 int main(){
