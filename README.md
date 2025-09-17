@@ -85,8 +85,6 @@ int main(void) {
 
 ```
 ---
-##🪨Compile & Run
-
 # compile
 gcc hello.c -o hello
 
@@ -95,5 +93,3 @@ gcc hello.c -o hello
 
 # run on Windows (CMD or PowerShell)
 hello.exe
-
----
