@@ -93,3 +93,29 @@ gcc hello.c -o hello
 
 ## run on Windows (CMD or PowerShell)
 hello.exe
+
+---
+
+
+# 📂 Project File Structure
+
+This is the suggested folder layout for the **C-Programming Tutorial** repository.  
+Each folder is organized by topic so you can easily find notes, examples, and practice programs.
+
+```bash
+C-programming_tutorial/
+├── 00-setup/                 # Compiler setup notes, VS Code tasks, make intro
+├── 01-basics/                # Syntax, variables, operators, I/O (printf/scanf)
+├── 02-control-flow/          # if/else, switch, loops
+├── 03-functions/             # Declarations, definitions, prototypes, recursion
+├── 04-arrays-strings/        # 1D/2D arrays, string.h functions, pitfalls
+├── 05-pointers/              # & and *, pointer arithmetic, const-correctness
+├── 06-structs-unions-enums/  # User-defined types, typedef, design tips
+├── 07-memory/                # malloc/calloc/realloc/free, memory leaks
+├── 08-file-io/               # Text/binary files, buffering, error handling
+├── 09-preprocessor/          # Macros, guards, conditional compilation
+├── 10-modular/               # Headers, multi-file builds, simple makefiles
+├── 11-debug-test/            # gdb basics, assert, unit-test style snippets
+├── 12-practice/              # Small algorithms & exercises
+├── projects/                 # Mini CLI tools / longer examples
+└── README.md                 # Main documentation
