@@ -120,6 +120,8 @@ C-programming_tutorial/
 ├── projects/                 # Mini CLI tools / longer examples
 └── README.md                 # Main documentation
 
+```
+
 ---
 ## 🚀 How to Use
 
