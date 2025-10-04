@@ -3,6 +3,8 @@
 A collection of **code-wise notes and practice programs** I created while learning the C language.  
 It’s organized for quick revision, with small, focused examples that build up from basics to real projects.
 
+Course By Code_with_harry 
+
 ---
 
 ## 📌 About
